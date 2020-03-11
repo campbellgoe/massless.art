@@ -80,7 +80,7 @@ export default () => (
         background-color: white;
         border: 8px solid black;
         margin: 48px;
-        margin-right: calc(440px + 48px);
+        margin-right: 48px;
         padding: 32px;
         border-radius: 1px;
       }
@@ -93,6 +93,11 @@ export default () => (
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+      }
+      @media only screen and (min-width: 1200px) {
+        main section {
+          margin-right: calc(440px + 48px);
+        }
       }
     `}</style>
     <style jsx global>{`
