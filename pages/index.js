@@ -3,7 +3,7 @@ import Head from 'next/head';
 export default () => (
   <>
     <Head>
-      <title>Offline Next.js with Now 2.0</title>
+      <title>MASSLESS.art</title>
       <link rel="manifest" href="/manifest.json" />
       <meta name="theme-color" content="#72B340" />
       <meta
@@ -12,23 +12,47 @@ export default () => (
       />
     </Head>
 
-    <div className="hero">
-      <h1 className="title">Offline Next.js with Now 2.0</h1>
+    <div className="top-bar"/>
+    <div className="right-bar">
+      <h1 className="title"><span className="title-start">MASSLESS</span>.<span className="title-end">art</span></h1>
     </div>
+    <div className="diagonal-bar"></div>
+   
 
     <style jsx>{`
-      .hero {
+      .top-bar {
+        height: calc(48px * 3);
         width: 100%;
-        color: #333;
-        text-align: center;
+        background-color: rgba(255,200,0,0.66);
+      }
+      .right-bar {
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100%;
+        width: auto;
+        background-color: rgba(255,0,0,0.33);
       }
       .title {
         font-family: sans-serif;
+        position: relative;
         margin: 0;
-        width: 100%;
-        padding-top: 80px;
-        line-height: 1.15;
+        top: 0;
+        right: 0;
         font-size: 48px;
+        padding: 48px;
+      }
+      .title-end {
+        color: white;
+      }
+      .diagonal-bar {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 50vw;
+        background-color: rgba(0, 137, 255, 0.2);
+        transform: skew(50deg);
       }
       .row {
         max-width: 880px;
@@ -36,6 +60,12 @@ export default () => (
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+      }
+    `}</style>
+    <style jsx global>{`
+      body {
+        margin: 0;
+        overflow-x: hidden;
       }
     `}</style>
   </>
