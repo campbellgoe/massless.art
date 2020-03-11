@@ -1,5 +1,5 @@
 import Head from 'next/head';
-
+const ExternalLink = ({ href, children }) => <a href={href} target="_blank" rel="noreferrer noopener">{children}<img src="external-link.png" style={{width: '1em', verticalAlign: 'bottom', margin: '0 4px'}}></img></a>;
 export default () => (
   <>
     <Head>
@@ -23,6 +23,8 @@ export default () => (
       </section>
       <section>
         <img src="/dichotomy00.png"/>
+        <h3><ExternalLink href="https://dichotomy.now.sh">Dichotomy</ExternalLink> is about the uncertainty between background & foreground, black & white, ying & yang, and what lives in between.
+        The shimmering of an image just loading, the void is always hiding behind veils of meaning, objects, and the known.</h3>
       </section>
       <section>
         <p>Main content of page goes here</p>
