@@ -19,7 +19,7 @@ export default () => (
     <div className="diagonal-bar"></div>
     <main>
       <section>
-        <h2>Welcome to MASSLESS.art, an ermergence of art, out of my programming adventures.</h2>
+        <h2>Welcome to MASSLESS.art, an emergence of art, out of my programming adventures.</h2>
         <p>I am a programmer dreaming of becoming a digital nomad. Check out my portfolio at <ExternalLink href="http://georgecampbell.co.uk">georgecampbell.co.uk</ExternalLink></p>
       </section>
       <section>
