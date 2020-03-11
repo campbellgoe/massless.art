@@ -22,7 +22,7 @@ export default () => (
         <h2>Welcome to MASSLESS.art, a collection of art pieces which emerged from my programming adventures.</h2>
       </section>
       <section>
-        <p>Main content of page goes here</p>
+        <img src="/dichotomy00.png"/>
       </section>
       <section>
         <p>Main content of page goes here</p>
@@ -83,6 +83,9 @@ export default () => (
         margin-right: calc(440px + 48px);
         padding: 32px;
         border-radius: 1px;
+      }
+      main section img {
+        width: 100%;
       }
       .row {
         max-width: 880px;
