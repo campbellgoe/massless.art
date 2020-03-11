@@ -12,12 +12,33 @@ export default () => (
       />
     </Head>
 
-    <div className="top-bar"/>
+    <div className="top-bar" />
     <div className="right-bar">
       <h1 className="title"><span className="title-start">MASSLESS</span>.<span className="title-end">art</span></h1>
     </div>
     <div className="diagonal-bar"></div>
-   
+    <main>
+      <section>
+        <h2>Welcome to MASSLESS.art, a collection of art pieces which emerged from my programming adventures.</h2>
+      </section>
+      <section>
+        <p>Main content of page goes here</p>
+      </section>
+      <section>
+        <p>Main content of page goes here</p>
+      </section>
+      <section>
+        <p>Main content of page goes here</p>
+      </section>
+      <section>
+        <p>Main content of page goes here</p>
+      </section>
+      <section>
+        <p>Main content of page goes here</p>
+      </section>
+      
+    </main>
+
 
     <style jsx>{`
       .top-bar {
@@ -26,7 +47,7 @@ export default () => (
         background-color: rgba(255,200,0,0.66);
       }
       .right-bar {
-        position: absolute;
+        position: fixed;
         right: 0;
         top: 0;
         height: 100%;
@@ -46,13 +67,22 @@ export default () => (
         color: white;
       }
       .diagonal-bar {
-        position: absolute;
+        position: fixed;
         left: 0;
         top: 0;
         height: 100%;
         width: 50vw;
         background-color: rgba(0, 137, 255, 0.2);
         transform: skew(50deg);
+      }
+      main section {
+        position: relative;
+        background-color: white;
+        border: 8px solid black;
+        margin: 48px;
+        margin-right: calc(440px + 48px);
+        padding: 32px;
+        border-radius: 1px;
       }
       .row {
         max-width: 880px;
@@ -66,6 +96,7 @@ export default () => (
       body {
         margin: 0;
         overflow-x: hidden;
+        font-family: sans-serif;
       }
     `}</style>
   </>
