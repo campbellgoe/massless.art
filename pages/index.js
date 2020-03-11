@@ -19,7 +19,8 @@ export default () => (
     <div className="diagonal-bar"></div>
     <main>
       <section>
-        <h2>Welcome to MASSLESS.art, a collection of art pieces which emerged from my programming adventures.</h2>
+        <h2>Welcome to MASSLESS.art, an ermergence of art, out of my programming adventures.</h2>
+        <p>I am a programmer dreaming of becoming a digital nomad. Check out my portfolio at <ExternalLink href="http://georgecampbell.co.uk">georgecampbell.co.uk</ExternalLink></p>
       </section>
       <section>
         <img src="/dichotomy00.png"/>
@@ -27,10 +28,13 @@ export default () => (
         The shimmering of an image just loading, the void is always hiding behind veils of meaning, objects, and the known.</h3>
       </section>
       <section>
-        <p>Main content of page goes here</p>
+        <img src="/flowering00.png"/>
+        <h3><ExternalLink href="https://flowering.now.sh">Flowering</ExternalLink> is about the proliferation of new forms through the imbalance between symmetry & asymmetry.</h3>
       </section>
       <section>
-        <p>Main content of page goes here</p>
+        <img src="/interflection00.png"/>
+        <h3><ExternalLink href="https://massless.art">Interflection</ExternalLink> consists of denser & denser spirals of different colours, weaving a moire fractal pattern. Signal is found from the noise through interference.</h3>
+        <img src="/interflection01.png"/>
       </section>
       <section>
         <p>Main content of page goes here</p>
