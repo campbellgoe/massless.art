@@ -24,12 +24,12 @@ export default () => (
       </section>
       <section>
         <img src="/dichotomy00.png" />
-        <h3><ExternalLink href="https://dichotomy.now.sh">Dichotomy</ExternalLink> is about the uncertainty between background & foreground, black & white, ying & yang, and what lives in between.
+        <h3 className="flat-bottom"><ExternalLink href="https://dichotomy.now.sh">Dichotomy</ExternalLink> is about the uncertainty between background & foreground, black & white, ying & yang, and what lives in between.
         The shimmering of an image just loading, the void is always hiding behind veils of meaning, objects, and the known.</h3>
       </section>
       <section>
         <img src="/flowering00.png" />
-        <h3><ExternalLink href="https://flowering.now.sh">Flowering</ExternalLink> is about the proliferation of new forms through the imbalance between symmetry & asymmetry.</h3>
+        <h3 className="flat-bottom"><ExternalLink href="https://flowering.now.sh">Flowering</ExternalLink> is about the proliferation of new forms through the imbalance between symmetry & asymmetry.</h3>
       </section>
       <section>
         <img src="/interflection00.png" />
@@ -55,17 +55,20 @@ export default () => (
       </section>
       <section>
         <img src="/paintgun00.png" />
-        <h3><ExternalLink href="https://paintgun.now.sh">Paintgun</ExternalLink> is an interactive canvas where you can paint the ground with colours.</h3>
+        <h3 className="flat-bottom"><ExternalLink href="https://paintgun.now.sh">Paintgun</ExternalLink> is an interactive canvas where you can paint the ground with colours.</h3>
       </section>
       <section>
         <img src="/facebook-page.png" />
-        <h3><ExternalLink href="https://www.facebook.com/massless.art">@massless.art</ExternalLink> on Facebook is where you can find more of my art. It has videos and stills of my artwork.</h3>
+        <h3 className="flat-bottom"><ExternalLink href="https://www.facebook.com/massless.art">@massless.art</ExternalLink> on Facebook is where you can find more of my art. It has videos and stills of my artwork.</h3>
       </section>
 
     </main>
 
 
     <style jsx>{`
+      .flat-bottom {
+        margin-bottom: 0;
+      }
       .top-bar {
         height: calc(48px * 3);
         width: 100%;
