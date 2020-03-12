@@ -57,6 +57,10 @@ export default () => (
         <img src="/paintgun00.png" />
         <h3><ExternalLink href="https://paintgun.now.sh">Paintgun</ExternalLink> is an interactive canvas where you can paint the ground with colours.</h3>
       </section>
+      <section>
+        <img src="/facebook-page.png" />
+        <h3><ExternalLink href="https://www.facebook.com/massless.art">@massless.art</ExternalLink> on Facebook is where you can find more of my art. It has videos and stills of my artwork.</h3>
+      </section>
 
     </main>
 
