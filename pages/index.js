@@ -12,7 +12,7 @@ export default () => (
       />
     </Head>
 
-    <div className="top-bar" />
+    <header className="top-bar" />
     <div className="right-bar">
       <h1 className="title"><span className="title-start">MASSLESS</span>.<span className="title-end">art</span></h1>
     </div>
@@ -61,9 +61,8 @@ export default () => (
         <img src="/facebook-page.png" />
         <h3 className="flat-bottom"><ExternalLink href="https://www.facebook.com/massless.art">@massless.art</ExternalLink> on Facebook is where you can find more of my art. It has videos and stills of my artwork.</h3>
       </section>
-
     </main>
-
+    <footer className="bottom-bar" />
 
     <style jsx>{`
       .flat-bottom {
@@ -71,6 +70,11 @@ export default () => (
       }
       .top-bar {
         height: calc(48px * 3);
+        width: 100%;
+        background-color: rgba(255,200,0,0.66);
+      }
+      .bottom-bar {
+        height: calc(48px * 12);
         width: 100%;
         background-color: rgba(255,200,0,0.66);
       }
