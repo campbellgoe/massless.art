@@ -1,5 +1,5 @@
 import Head from 'next/head';
-const ExternalLink = ({ href, children }) => <a href={href} target="_blank" rel="noreferrer noopener">{children}<img src="external-link.png" style={{width: '1em', verticalAlign: 'bottom', margin: '0 4px'}}></img></a>;
+const ExternalLink = ({ href, children }) => <a href={href} target="_blank" rel="noreferrer noopener">{children}<img src="external-link.png" style={{ width: '1em', verticalAlign: 'bottom', marginLeft: '4px', marginBottom: '2px' }}></img></a>;
 export default () => (
   <>
     <Head>
@@ -8,7 +8,7 @@ export default () => (
       <meta name="theme-color" content="#72B340" />
       <meta
         name="description"
-        content="make your Next.js application work offline using service workers via Google's workbox"
+        content="MASSLESS.art is a website displaying the art that has emerged from my programming adventures."
       />
     </Head>
 
@@ -23,26 +23,41 @@ export default () => (
         <p>I am a programmer dreaming of becoming a digital nomad. Check out my portfolio at <ExternalLink href="http://georgecampbell.co.uk">georgecampbell.co.uk</ExternalLink></p>
       </section>
       <section>
-        <img src="/dichotomy00.png"/>
+        <img src="/dichotomy00.png" />
         <h3><ExternalLink href="https://dichotomy.now.sh">Dichotomy</ExternalLink> is about the uncertainty between background & foreground, black & white, ying & yang, and what lives in between.
         The shimmering of an image just loading, the void is always hiding behind veils of meaning, objects, and the known.</h3>
       </section>
       <section>
-        <img src="/flowering00.png"/>
+        <img src="/flowering00.png" />
         <h3><ExternalLink href="https://flowering.now.sh">Flowering</ExternalLink> is about the proliferation of new forms through the imbalance between symmetry & asymmetry.</h3>
       </section>
       <section>
-        <img src="/interflection00.png"/>
-        <h3><ExternalLink href="https://massless.art">Interflection</ExternalLink> consists of denser & denser spirals of different colours, weaving a moire fractal pattern. Signal is found from the noise through interference.</h3>
-        <img src="/interflection01.png"/>
+        <img src="/interflection00.png" />
+        <h3><ExternalLink href="https://massless.art">Interflection</ExternalLink> consists of denser & denser spirals of different colours, weaving a moiré fractal pattern.
+        Signal is found from the noise through interference.
+        Click and drag to view the spherical nature of the spirals.</h3>
+        <img src="/interflection01.png" />
       </section>
       <section>
-        <p>Main content of page goes here</p>
+        <h3><ExternalLink href="https://energy.now.sh">Energy</ExternalLink> visualises gravitational attraction & the dances that emerge from these mathematical models.</h3>
+        <img src="/energy00.png" />
+        <img src="/energy01.png" />
+        <img src="/energy02.png" />
       </section>
       <section>
-        <p>Main content of page goes here</p>
+        <h3><ExternalLink href="https://massless.now.sh">Massless</ExternalLink> is a slowly changing animation of a mesh of orbs which repel and attract eachother at varying distances, with interesting effects emerging.</h3>
+        <img src="/massless00.png" />
       </section>
-      
+      <section>
+        <img src="/wavey01.png" />
+        <h3><ExternalLink href="https://wavey.now.sh">Wavey</ExternalLink> shows the conflict between chaos and order, as patterns emerge from overlapping waves of dancing sprites.</h3>
+        <img src="/wavey02.png" />
+      </section>
+      <section>
+        <img src="/paintgun00.png" />
+        <h3><ExternalLink href="https://paintgun.now.sh">Paintgun</ExternalLink> is an interactive canvas where you can paint the ground with colours.</h3>
+      </section>
+
     </main>
 
 
