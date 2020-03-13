@@ -1,12 +1,22 @@
 {
-  "name": "Next Offline",
-  "short_name": "Next Offline",
+  "name": "MASSLESS.art",
+  "short_name": "MASSLESS.art",
   "icons": [
       {
-      "src": "/icon-192.png",
-      "type": "image/png",
-      "sizes": "192x192"
+        "src": "/favicon-16x16.png",
+        "type": "image/png",
+        "sizes": "16x16"
       },
+      {
+        "src": "/favicon-32x32.png",
+        "type": "image/png",
+        "sizes": "32x32"
+      },
+      {
+        "src": "/icon-192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+        },
       {
       "src": "/icon-512.png",
       "type": "image/png",
@@ -14,8 +24,8 @@
       }
   ],
   "background_color": "#FFFFFF",
-  "description": "make your Next.js application work offline using service workers via Google's workbox",
+  "description": "An emergence of art, out of my programming adventures.",
   "display": "fullscreen",
   "start_url": "/",
-  "theme_color": "#000"
+  "theme_color": "#ffdb57"
 }

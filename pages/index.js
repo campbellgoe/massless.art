@@ -6,7 +6,7 @@ export default () => {
       <Head>
         <title>MASSLESS.art</title>
         <link rel="manifest" href="/manifest.json" />
-        <meta name="theme-color" content="#72B340" />
+        <meta name="theme-color" content="#ffdb57" />
         <meta
           name="description"
           content="MASSLESS.art is a website displaying the art that has emerged from my programming adventures."
