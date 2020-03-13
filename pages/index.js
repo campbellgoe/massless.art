@@ -25,6 +25,12 @@ export default () => {
         </section>
         <section>
           <div>
+            <img src="/flowering00.png" />
+            <h3 className="flat-bottom"><ExternalLink href="https://flowering.now.sh">Flowering</ExternalLink> is about the proliferation of new forms through the imbalance between symmetry & asymmetry.</h3>
+          </div>
+        </section>
+        <section>
+          <div>
             <img src="/dichotomy00.png" />
             <h3 className="flat-bottom"><ExternalLink href="https://dichotomy.now.sh">Dichotomy</ExternalLink> is about the uncertainty between background & foreground, black & white, ying & yang, and what lives in between.
           The shimmering of an image just loading, the void is always hiding behind veils of meaning, objects, and the known.</h3>
@@ -32,13 +38,7 @@ export default () => {
         </section>
         <section>
           <div>
-            <img src="/flowering00.png" />
-            <h3 className="flat-bottom"><ExternalLink href="https://flowering.now.sh">Flowering</ExternalLink> is about the proliferation of new forms through the imbalance between symmetry & asymmetry.</h3>
-          </div>
-        </section>
-        <section>
-          <div>
-            <h3><ExternalLink href="https://interference.art">Interference</ExternalLink> was made while experimenting with GLSL shaders in a three.js context.</h3>
+            <h3><ExternalLink href="https://interference.now.sh">Interference</ExternalLink> was made while experimenting with GLSL shaders in a three.js context.</h3>
             <img src="/interference00.png" />
           </div>
         </section>
