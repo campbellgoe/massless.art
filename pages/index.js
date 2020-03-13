@@ -173,6 +173,15 @@ export default () => {
        
     `}</style>
       <style jsx global>{`
+      ::-moz-selection {
+        color: black;
+        background-color: yellow;
+      }
+
+      ::selection {
+        color: black;
+        background-color: yellow;
+      }
       body {
         margin: 0;
         overflow-x: hidden;
