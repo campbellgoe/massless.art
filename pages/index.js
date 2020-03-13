@@ -38,13 +38,8 @@ export default () => {
         </section>
         <section>
           <div>
-            <img src="/interflection00.png" />
-          </div>
-          <div>
-            <h3><ExternalLink href="https://massless.art">Interflection</ExternalLink> consists of denser & denser spirals of different colours, weaving a moiré fractal pattern.
-          Signal is found from the noise through interference.
-          Click and drag to view the spherical nature of the spirals.</h3>
-            <img src="/interflection01.png" />
+            <h3><ExternalLink href="https://interference.art">Interference</ExternalLink> was made while experimenting with GLSL shaders in a three.js context.</h3>
+            <img src="/interference00.png" />
           </div>
         </section>
         <section>
