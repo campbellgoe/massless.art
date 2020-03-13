@@ -86,7 +86,9 @@ export default () => {
           </div>
         </section>
       </main>
-      <footer className="bottom-bar" />
+      <footer className="bottom-bar">
+        <span>Copyright George Campbell © 2020</span>
+      </footer>
 
       <style jsx>{`
       
@@ -151,7 +153,15 @@ export default () => {
         flex-direction: row;
         justify-content: space-around;
       }
-      
+      footer {
+        position: relative;
+        z-index: -1;
+      }
+      footer span {
+        position: absolute;
+        bottom: 48px;
+        right: 48px;
+      }
       @media only screen and (min-width: 1200px) {
         main section {
           margin-right: calc(440px + 48px);
