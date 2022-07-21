@@ -21,7 +21,6 @@ export default () => {
       <main>
         <section>
           <h2>Welcome to MASSLESS.art, an emergence of art, out of my programming adventures.</h2>
-          <p>I am a George. Check out my portfolio at <ExternalLink href="https://georgecampbell.co.uk">georgecampbell.co.uk</ExternalLink></p>
         </section>
         <section>
           <div>
