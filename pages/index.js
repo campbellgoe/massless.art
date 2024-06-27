@@ -25,25 +25,25 @@ export default () => {
         <section>
           <div>
             <img src="/flowering00.png" />
-            <h3 className="flat-bottom"><ExternalLink href="https://flowering.now.sh">Flowering</ExternalLink> is about the proliferation of new forms through the imbalance between symmetry & asymmetry.</h3>
+            <h3 className="flat-bottom"><ExternalLink href="https://flowering.vercel.app">Flowering</ExternalLink> is about the proliferation of new forms through the imbalance between symmetry & asymmetry.</h3>
           </div>
         </section>
         <section>
           <div>
             <img src="/dichotomy00.png" />
-            <h3 className="flat-bottom"><ExternalLink href="https://dichotomy.now.sh">Dichotomy</ExternalLink> is about the uncertainty between background & foreground, black & white, ying & yang, and what lives in between.
+            <h3 className="flat-bottom"><ExternalLink href="https://dichotomy.vercel.app">Dichotomy</ExternalLink> is about the uncertainty between background & foreground, black & white, ying & yang, and what lives in between.
           The shimmering of an image just loading, the void is always hiding behind veils of meaning, objects, and the known.</h3>
           </div>
         </section>
         <section>
           <div>
-            <h3><ExternalLink href="https://interference.now.sh">Interference</ExternalLink> was made while experimenting with GLSL shaders in a three.js context.</h3>
+            <h3><ExternalLink href="https://interference.vercel.app">Interference</ExternalLink> was made while experimenting with GLSL shaders in a three.js context.</h3>
             <img src="/interference00.png" />
           </div>
         </section>
         <section>
           <div>
-            <h3><ExternalLink href="https://energy.now.sh">Energy</ExternalLink> visualises gravitational attraction & the dances that emerge from these mathematical models.</h3>
+            <h3><ExternalLink href="https://energy.vercel.app">Energy</ExternalLink> visualises gravitational attraction & the dances that emerge from these mathematical models.</h3>
             <img src="/energy00.png" />
           </div>
           <div>
@@ -53,14 +53,14 @@ export default () => {
         </section>
         <section>
           <div>
-            <h3><ExternalLink href="https://massless.now.sh">Massless</ExternalLink> is a slowly changing animation of a mesh of orbs which repel and attract eachother at varying distances, with interesting effects emerging.</h3>
+            <h3><ExternalLink href="https://massless.vercel.app">Massless</ExternalLink> is a slowly changing animation of a mesh of orbs which repel and attract eachother at varying distances, with interesting effects emerging.</h3>
             <img src="/massless00.png" />
           </div>
         </section>
         <section>
           <div>
             <img src="/wavey01.png" />
-            <h3><ExternalLink href="https://wavey.now.sh">Wavey</ExternalLink> shows the conflict between chaos and order, as patterns emerge from overlapping waves of dancing sprites.</h3>
+            <h3><ExternalLink href="https://wavey.vercel.app">Wavey</ExternalLink> shows the conflict between chaos and order, as patterns emerge from overlapping waves of dancing sprites.</h3>
           </div>
           <div>
             <img src="/wavey02.png" />
@@ -68,7 +68,7 @@ export default () => {
         </section>
         <section>
           <div>
-            <h3><ExternalLink href="https://paintgun.now.sh">Paintgun</ExternalLink> is an interactive canvas where you can paint the ground with colours.</h3>
+            <h3><ExternalLink href="https://paintgun.vercel.app">Paintgun</ExternalLink> is an interactive canvas where you can paint the ground with colours.</h3>
             <img src="/paintgun00.png" />
           </div>
 
